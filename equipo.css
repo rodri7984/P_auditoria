@@ -19,7 +19,7 @@ h6 {
 }
 
 .bg-image {
-  background-image: url('/Img/photo_5152597103539760910_w.jpg');
+  background-image: url('Img/photo_5152597103539760910_w.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
