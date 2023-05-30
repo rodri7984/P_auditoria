@@ -28,10 +28,11 @@ h6 {
   position: relative;
   font-size: 20px;
   width: 660px;
-  left: 180px;
+  left: 50px;
   border-radius: 25px;
   background-color: #dbade4 ; 
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  margin-top: 40%;
 }
 
 .color{
