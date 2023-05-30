@@ -1,5 +1,8 @@
+
+
 body {
   font-family: 'Roboto', sans-serif;
+  
 }
 
 
@@ -7,10 +10,12 @@ h6 {
   font-size: 1.5em;
 }
 
+
 .logo-nav{
     width: 200px;
     height: 150px;
-    margin-left: 80%;
+    margin-left: 40%;
+    
 }
 
 .animation-container {
@@ -49,10 +54,16 @@ h6 {
  
   
 }
+.contenedor-maceta{ 
+    max-width: 100%;
+    overflow: hidden;
+  
+}
 .maceta{
     width: 130px;
     height: 300px;
-    
+    max-width: 100%;
+    height: auto;
     
     
     
