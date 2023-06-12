@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0 !important;
   
 }
 
@@ -9,6 +10,61 @@ body {
 h6 {
   font-size: 1.5em;
 }
+
+@media (max-width: 767px) { /* Ajustar el ancho máximo según tus necesidades */
+  .maceta {
+    display: none;
+  }
+  .maceta-dos {
+    display: none;
+  }
+  .img-ofi{
+    display: none;
+  }
+  .titulo-agencia-1{
+    text-align: center !important;
+  }
+  .titulo-agencia-2{
+    text-align: center !important;
+    justify-content: center !important;
+    
+  }
+  .icono{
+    text-align: center !important;
+  }
+  .navbar{
+    left: 0px;
+    
+  }
+  .section-presentacion{
+    text-align: center !important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .maceta {
+    display: none;
+  }
+  .maceta-dos {
+    display: none;
+  }
+
+  .navbar {
+    left: 0px !important;
+  }
+  .titulo-agencia-1{
+    text-align: center !important;
+  }
+
+  .titulo-agencia-2{
+    text-align: center !important;
+    justify-content: center !important;
+    
+  }
+
+}
+
 
 
 .logo-nav{
@@ -80,6 +136,7 @@ h6 {
 
 
 .titulo-agencia-1{
+  
   border-radius: 10px 0 0 10px;
   background-color: #96819b ;
   /* box-shadow:  -10px -10px 15px rgba(0, 0, 0, 0.5); */
@@ -94,18 +151,21 @@ h6 {
   align-items: center;
   justify-content: end;
   box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.6);
+  
 }
 
 
 .container-oficina{
     max-width: 100%;
+    
   }
 
 .img-ofi {
   position: absolute;
   top: 12%; /* Establece el porcentaje deseado */
   left: 0;
-  width: 80%;
+  max-width: 70%;
+  
   }
 
 
